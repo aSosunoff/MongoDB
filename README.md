@@ -38,7 +38,7 @@ db.users_test.find().pretty()
 
 Результат
 
-```json
+```js
 {
         "_id" : ObjectId("5e3ad868b6a7205fe1741891"),
         "name" : "Tom",
@@ -67,7 +67,7 @@ db.users_test.find()
 
 Результат
 
-```json
+```js
 { "_id" : ObjectId("5e3ad868b6a7205fe1741891"), "name" : "Tom", "age" : 28, "languages" : [ "english", "spanish" ] }
 { "_id" : 123457, "name" : "Tom", "age" : 28, "languages" : [ "english", "spanish" ] }
 { "_id" : ObjectId("5e3ad907b6a7205fe1741892"), "name" : "Bob", "age" : 26, "languages" : [ "english", "frensh" ] }
@@ -82,7 +82,7 @@ db.users_test.find()
 
 Результат
 
-```json
+```js
 { "_id" : ObjectId("5e3ad868b6a7205fe1741891"), "name" : "Tom", "age" : 28, "languages" : [ "english", "spanish" ] }
 { "_id" : 123457, "name" : "Tom", "age" : 28, "languages" : [ "english", "spanish" ] }
 { "_id" : ObjectId("5e3ad907b6a7205fe1741892"), "name" : "Bob", "age" : 26, "languages" : [ "english", "frensh" ] }
